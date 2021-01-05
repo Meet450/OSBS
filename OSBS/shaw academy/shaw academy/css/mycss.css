@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 81, 255);
+}
+.wrraper 
+{
+    margin-top:0 auto;
+    width:90%;
+    margin:0 auto;
+    margin-top: 5%;
+    background-color:rgb(129, 236, 255);
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.6), -10px 0px 10px
+     rgba(0, 0, 0, 0.6)
+
+}
+section{
+    padding: 1%;
+}
+p
+{
+    width:60%;
+}
+.image img{
+    max-height: 100vh;
+    margin-left: 75px;
+    
+}
+nav
+{
+    display: block;
+    padding: 10px;
+    background-color: rgb(131, 255, 30);
+    text-align: center;   
+}
+nav a{
+    display: inline-block;
+    margin: 10px;
+    color:rgb(11, 12, 12);
+    background-color: rgb(43, 255, 255);
+    width: 14%;
+    text-decoration: none;
+    padding: 5px;
+}
+nav a:hover
+{
+    box-shadow: 0 3px 3px #f00;
+    text-shadow: 0 1px 1px #f00;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration:none;
+    font-size: 25px;
+    display: block;
+    color: yellow;
+   transition: 0.3s;
+
+
+}
+.sidenav a:hover{
+    color: rgb(255, 37, 37);
+    font-family: fantasy;
+    cursor: pointer;
+}
+.cross a:hover{
+    background-color: rgb(88, 5, 5);
+    color: white;
+}
+.sidenav{
+
+    height: 100%;
+      width: 0;
+     position: fixed; 
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: #111;
+     overflow-x:hidden;
+     padding-top: 60px;
+}
+.sidenav img{
+
+    width: 80%;
+    margin:10px;
+    height:30%;
+    padding-top: 70%;
+    border-radius: 20px ;
+    
+}
+nav span{
+    padding: 5px;
+}
+nav span:hover{
+    background-color: grey;
+    color: red;
+}
