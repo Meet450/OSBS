@@ -1,0 +1,84 @@
+body{
+  font-family: 'Merriweather', serif;
+  margin:0;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color:#fdfffff5;
+}
+
+.container h1{
+	float: left;
+	font-size: 40px;
+	border-bottom: 6px solid;
+	margin-bottom: 50px;
+	padding: 13px 0;
+}
+
+.form-control{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border: none;
+  outline: none;
+  background: none;
+  border-bottom: 1px solid; 
+}
+
+.form-control input{
+  border:none;
+  outline:none;
+  background:none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+  display: block;
+}
+
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="textarea"]:focus,
+input[type="password"]:focus{
+	background:transparent;
+}
+/* 
+input:focus{
+  background:transparent;
+} */
+
+.form-check {
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 0px;
+  color: white;
+}
+
+input[type="date"]{
+  color:white;
+  font-family: 'Merriweather', serif;
+	content: attr(placeholder);
+}
+
+.form-control::placeholder {
+  color: white;
+  font-family: 'Merriweather', serif;
+}
+
+#btn{
+  float:right;
+}

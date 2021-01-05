@@ -1,0 +1,49 @@
+.body{
+	margin:0;
+}
+.link{
+	color:white;
+	text-decoration: none;
+}
+.link:hover{
+	color:yellow;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	top:0;
+	padding: 10px;
+	overflow: hidden;
+	width: 100%;
+	background-color: black;
+	/* border:2px solid; */
+}
+li{
+	float:left;
+	display: block;
+	padding: 10px 10px;
+}
+.web-side{
+	font-size: 25px;
+	color: white;
+
+}
+.option{	
+	float: right;
+	font-size: 20px;
+	color: white;
+}
+
+.search{
+	margin-left: 150px;
+	border: none;
+	height: 30px;
+	width: 450px;
+	padding: 0px 5px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+
+/* footer style */
